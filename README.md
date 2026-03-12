@@ -14,3 +14,5 @@ Interested in Machine Learning, Full-stack Development, and VR Applications.
 
 **Tech Stack:**
 `Python` `Go` `C++` `C#` `Unity` `React` `JavaScript`
+
+**Organization:** [Love-MrHou](https://github.com/Love-MrHou) — NDHU IM25 Graduation Project team
