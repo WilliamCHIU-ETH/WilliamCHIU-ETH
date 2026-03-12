@@ -6,6 +6,6 @@
 ![C%23](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-HDRP-black?logo=unity)
 
-**畢業專題：** [VR Vocational Training](https://github.com/Love-MrHou/IM25_HDRP) — Unity HDRP 建構的職業訓練 VR 系統
+**畢業專題：** [VR Vocational Training](https://github.com/Love-MrHou) — Unity HDRP 建構的職業訓練 VR 系統
 
 **學習中：** [LSM-Tree KV Store](https://github.com/WilliamCHIU-ETH/kv-store) — 讀《DDIA》同步實作，練習底層儲存設計
