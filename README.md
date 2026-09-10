@@ -80,40 +80,92 @@ flowchart LR
 
 ### 專案與小作品
 
-#### 值得保留的里程碑
+把實作經驗留下來：有些成為可重用的工具，有些讓我重新理解如何維護一個服務。
 
-- **[LILA Design System](https://github.com/WilliamCHIU-ETH/lila-design-system)** 🔒 Private
+#### 把製作經驗變成工具
 
-  希望讓 Agent 更好地製作 Prototype，因此將 UI Token、Component、手機外框與使用契約整理成工具，提供可以遵循與重用的設計基礎。這是我把 UI 製作經驗轉成具體工具的重要里程碑。
+<table>
+  <tr>
+    <td>
+      <p>
+        <strong><a href="https://github.com/WilliamCHIU-ETH/lila-design-system">LILA Design System｜如何讓 Agent 更好地製作 Prototype？</a></strong>
+        <code>🔒 Private</code>
+      </p>
+      <p>把 UI Token、元件、手機外框與使用契約整理成設計基礎，讓製作 Prototype 的經驗成為 Agent 可以遵循與重用的工具。</p>
+      <p><sub>製作經驗 → 使用契約 → 可重用工具</sub></p>
+    </td>
+  </tr>
+</table>
 
-- **[Morning Brief Workbench](https://github.com/WilliamCHIU-ETH/morning-brief-workbench)**
+<table>
+  <tr>
+    <td>
+      <p><strong><a href="https://github.com/WilliamCHIU-ETH/morning-brief-workbench">Morning Brief Workbench｜短影音如何反覆交付？</a></strong></p>
+      <p>從 Marketing Video 經驗提煉稿件規則、範例與品質判準，整理成台股晨報短影音的製作與驗收流程。</p>
+      <p><sub>稿件規則 → 製作流程 → 驗收門檻</sub></p>
+    </td>
+  </tr>
+</table>
 
-  將 Marketing Video 的經驗提煉成台股晨報短影音流程，把稿件規則、範例與品質判準整理成可執行的驗收門檻。希望每次製作都能沿用共同標準，是我在影片工具上的重要里程碑。
+<table>
+  <tr>
+    <td>
+      <p><strong><a href="https://github.com/WilliamCHIU-ETH/sourced-footage-reel-harness">Sourced Footage Reel｜現成素材怎麼變成一支片？</a></strong></p>
+      <p>串起文字來源、官方影片素材、選材、剪輯與字幕，保留從素材取得到成片的工序，作為下一次製作可以沿用的方法。</p>
+      <p><sub>來源與素材 → 選材剪輯 → 字幕與成片</sub></p>
+    </td>
+  </tr>
+</table>
 
-- **[Sourced Footage Reel](https://github.com/WilliamCHIU-ETH/sourced-footage-reel-harness)**
+#### 讓開發與服務持續運作
 
-  將文字來源與既有官方影片素材，串成選材、剪輯與字幕製作的短影音流程。這是 Marketing Video 的另一份精華，保留我如何把素材取得到成片的工序整理成可重複使用的方法。
+<table>
+  <tr>
+    <td>
+      <p><strong><a href="https://github.com/WilliamCHIU-ETH/wsl-agent-homebase">WSL Agent Homebase｜閒置筆電能成為 Agent 主機嗎？</a></strong></p>
+      <p>讓 Windows 筆電承接遠端任務：透過 Discord 下達指令，由 WSL 與 Agent 環境執行，探索既有硬體如何成為工作資源。</p>
+      <p><sub>閒置硬體 → 遠端指令 → Agent 工作環境</sub></p>
+    </td>
+  </tr>
+</table>
 
-- **[WSL Agent Homebase](https://github.com/WilliamCHIU-ETH/wsl-agent-homebase)**
+<table>
+  <tr>
+    <td>
+      <p>
+        <strong><a href="https://github.com/WilliamCHIU-ETH/reliability-engineering-case-study">Reliability Engineering｜API 串好了，為什麼還需要 SQLite？</a></strong>
+        <code>案例筆記</code>
+      </p>
+      <p>以雪隧哨兵的 SQLite、備份與安全發布為案例，理解從後端功能到服務持續運作之間，多了哪些責任。文章與圖解公開，案例原始碼為私人 repo。</p>
+      <p><sub>串接資料 → 保存狀態 → 理解安全部署與復原</sub></p>
+    </td>
+  </tr>
+</table>
 
-  希望讓閒置的 Windows 筆電繼續發揮用途，成為可以遠端指揮的 Agent 主機。透過 Discord 下達任務，由 WSL 與 Agent 環境承接工作，讓手邊既有的硬體成為可使用的工作資源。
+<details>
+<summary><strong>學習與參考標竿 · 2</strong></summary>
 
-#### 學習與參考標竿
+借鏡的作品，不列為自己的製作成果。
 
 - **[MoneyFlow Demo](https://github.com/WilliamCHIU-ETH/moneyflow-demo)** 🔒 Private
 
-  資深工程師一天內做出的 Prototype。我保留它作為學習與能力標竿，希望理解對方如何組織與完成作品，逐步接近這樣的製作能力。
+  參考資深工程師如何在一天內組織並完成 Prototype。
 
 - **[InvoiceManager Screens](https://github.com/WilliamCHIU-ETH/invoicemanager-screens)** 🔒 Private
 
-  我當初參考這套工序，才做出 LILA Design System。它是我心中更進階的參考，兩者仍有很大的差距；保留它，是為了持續對照設計系統與製作流程還能怎麼改善。
+  製作 LILA Design System 時的參考，持續對照設計系統與流程能如何改善。
 
-#### 回訪
+</details>
+
+<details>
+<summary><strong>延伸與回訪 · 2</strong></summary>
 
 - **[ESG RAG｜MCP 延伸](https://github.com/WilliamCHIU-ETH/MCP_ESG_index50)**
 
-  讓既有 ESG 報告索引能透過 MCP 被查詢，取得可回查的原文證據。它與上方的 ESG RAG Query System 屬於同一專案，對外介紹仍以 Query System 為主。
+  同一 ESG RAG 專案的延伸：透過 MCP 查詢既有報告索引，取得可回查的原文證據。
 
 - **[Tank Simulator](https://github.com/WilliamCHIU-ETH/tank-simulator)**
 
-  透過坦克自主對戰與遺傳演算法，觀察環境參數如何影響行為與演化。保留這個模擬探索，方便日後回訪。
+  回訪坦克自主對戰與遺傳演算法的模擬，觀察環境參數如何影響行為與演化。
+
+</details>
